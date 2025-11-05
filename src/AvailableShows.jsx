@@ -52,7 +52,7 @@ const AvailableShows = () => {
               <img
                 src={show.image}
                 alt={show.title}
-                className="h-50 w-full"
+                className="h-65 w-full"
               />
               <div className="p-5">
                 <h3 className="text-xl font-bold text-red-500 dark:text-gray-100 mb-1">
