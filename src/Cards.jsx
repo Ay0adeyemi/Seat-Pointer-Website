@@ -7,7 +7,7 @@ function Cards(props) {
    <img src={props.image} alt="show-image" className="w-full h-40 sm:h-60 pb-2"/>
    <p className="text-xl font-bold text-red-500 pb-1">{props.title}</p>
    <div className="flex justify-between pb-5"> 
-   <p className="text-md text-amber-500">{props.price}</p>
+   <p className="text-md text-amber-500 tracking-tighter font-semibold">{props.price}</p>
    <p className="text-md flex gap-x-1 font-bold"><Star color='red' size={23}/>{props.rating}</p>
 </div>
 </div>
