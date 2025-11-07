@@ -62,7 +62,7 @@ const EndingSoon = () => {
                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
                   📍 {show.theater}
                 </p>
-                <p className="text-sm text-red-500 dark:text-pink-400 font-medium mb-2">
+                <p className="text-sm text-red-500 dark:text-red-500 font-medium mb-2">
                   ⏰ {show.date}
                 </p>
                 <div className="flex justify-center md:justify-start items-center gap-3 mt-2">

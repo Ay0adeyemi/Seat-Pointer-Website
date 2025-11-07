@@ -81,11 +81,11 @@ const ComingSoon = () => {
                 </div>
 
                 <div className="flex items-center justify-between mt-auto">
-                  <span className="text-lg font-bold text-red-500 dark:text-pink-400">
+                  <span className="text-lg font-bold text-red-500 dark:text-red-500">
                     {show.price}
                   </span>
                   <button className="px-4 py-2 bg-red-500 hover:bg-red-700 text-white text-sm font-medium rounded-md transition-colors">
-                    Pre Book
+                    Pre-Book
                   </button>
                 </div>
               </div>
