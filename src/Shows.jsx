@@ -88,7 +88,7 @@ const data =[
         
 return (
 <div className='bg-white pt-20 pb-10 dark:bg-slate-900 h-full pl-3'>
-  <h1 className='text-2xl font-bold text-red-500 mb-7 '>Popular Shows</h1>
+  <h1 className='text-2xl font-bold text-black-500 mb-7 '>Popular Shows</h1>
         <Carousel responsive={responsive} showDots={false} swipeable={true} autoPlay={true} autoPlaySpeed={3000} infinite={true}>
   {card}
 </Carousel>
