@@ -22,7 +22,7 @@ function Text(){
 };
     return (
 <div className=" bg-white pt-20 pb-10 dark:bg-slate-900 h-full">
-    <h1 className="font-bold text-4xl text-red-500  pb-5 flex justify-center items-center tracking-widest">Buyer's Guarantee</h1>
+    <h1 className="font-bold text-4xl text-red-500  pb-5 flex justify-center items-center tracking-tight">Buyer's Guarantee</h1>
 
         <Carousel responsive={responsive} showDots={false} swipeable={true} infinite={true} autoPlay={true} autoPlaySpeed={3000} removeArrowOnDeviceType={["desktop", "mobile"]} className='pt-5'>
             <div className='font-bold w-80 sm:w-120 p-2 bg-gray-100 dark:bg-slate-800 rounded shadow-xl h-full m-auto'>
