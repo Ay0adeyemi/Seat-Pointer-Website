@@ -13,6 +13,8 @@ import ComingSoon from './ComingSoon.jsx'
 import NewsBlogSection from './NewsBlogSection.jsx'
 import LimitedTimeOffers from './LimitedTimeOffers.jsx'
 import Testimonials from './Testimonials.jsx'
+import CustomerHelp from './CustomerHelp.jsx'
+import VideoHighlights from './VideoHighlights.jsx'
 
 
 
@@ -28,11 +30,13 @@ function App() {
       <News />
       <LimitedTimeOffers />
       <EndingSoon />
+      <VideoHighlights />
       <NewsBlogSection />
       <ComingSoon />
        <Text />
        <Testimonials />
        <Subscribe />
+       <CustomerHelp />
        <Footer />
     </div>
   )

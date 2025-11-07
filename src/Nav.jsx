@@ -17,6 +17,9 @@ function Nav() {
             localStorage.setItem("theme", "light");
         }
     })
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode);
+    };
     return (
         <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg  font-display tracking-tight shadow-lg dark:bg-slate-900">
 <div className='container px-4 mx-auto relative text-sm'>
@@ -43,7 +46,7 @@ function Nav() {
          </div>
          
     <div className='flex space-x-2'>
-        <button onClick={() => setDarkMode(!darkMode)} className=''>
+        <button onClick={toggleDarkMode} className=''>
              {darkMode ? <Sun color='red' size={30}/> : <Moon color='red' size={30}/>}
          </button>
          <div className='lg:hidden md:flex flex-col justify-end'>
