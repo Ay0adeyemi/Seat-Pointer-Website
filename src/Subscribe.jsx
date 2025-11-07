@@ -12,7 +12,7 @@ const Subscribe = () => {
   };
 
   return (
-    <section className="bg-gray-100 dark:bg-gray-900 py-16 px-6">
+    <section className="bg-gray-100 dark:bg-gray-900 py-16 px-6 font-inter">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100">
           Subscribe for the Latest News & Events 🎟️

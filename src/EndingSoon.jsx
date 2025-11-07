@@ -32,7 +32,7 @@ const endingSoonShows = [
 
 const EndingSoon = () => {
   return (
-    <section className="bg-gray-100 dark:bg-gray-900 py-10 px-6">
+    <section className="bg-gray-100 dark:bg-gray-900 py-10 px-6 font-inter">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center">
           🎟️ Ending Soon

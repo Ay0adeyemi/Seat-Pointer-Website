@@ -41,7 +41,7 @@ const newsPosts = [
 
 const NewsBlogSection = () => {
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 py-12 px-6">
+    <section className="bg-gray-50 dark:bg-gray-900 py-12 px-6 font-inter">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-10 text-center">
           📰 Broadway News & Updates

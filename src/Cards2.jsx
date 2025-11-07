@@ -3,7 +3,7 @@ function Cards2(props) {
     
     return(
         <div className="flex  items-center justify-center">
-<div className="w-60 p-2 bg-gray-200 dark:bg-slate-800 rounded overflow-hidden shadow-xl ">
+<div className="w-60 p-2 bg-gray-200 dark:bg-slate-800 rounded overflow-hidden shadow-xl font-inter">
     <div className='h-80 w-full overflow-hidden'>
    <img src={props.image} alt="show-image" className="w-full h-full object-cover sm:h-full pb-4"/>
    </div>

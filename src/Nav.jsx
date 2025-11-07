@@ -21,7 +21,7 @@ function Nav() {
         setDarkMode(!darkMode);
     };
     return (
-        <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg  font-display tracking-tight shadow-lg dark:bg-slate-900">
+        <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg  font-display tracking-tight shadow-lg dark:bg-slate-900 font-inter">
 <div className='container px-4 mx-auto relative text-sm'>
     <div className='flex justify-between items-center'>
         <div className='flex items-center shrink-0'>

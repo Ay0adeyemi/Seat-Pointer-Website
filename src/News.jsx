@@ -19,7 +19,7 @@ const News = () => {
   }, []);
 
   return (
-    <div className="w-full bg-linear-to-r from-amber-300 to-red-500 dark:from-pink-700 dark:to-purple-800 text-white py-2 overflow-hidden shadow-md">
+    <div className="font-inter w-full bg-linear-to-r from-amber-300 to-red-500 dark:from-pink-700 dark:to-purple-800 text-white py-2 overflow-hidden shadow-md">
       <div className="max-w-6xl mx-auto flex items-center justify-center">
         <span className="font-semibold uppercase tracking-wider mr-3">
           Newsflash:

@@ -9,7 +9,7 @@ function Hero() {
                <div className="absolute inset-0 bg-black opacity-20"></div>
                <div className="relative z-10">
                   <div>
-        <div className="  p-2 sm:p-15 md:p-12 flex flex-col justify-center items-center text-center space-y-5 w-auto">
+        <div className="  p-2 sm:p-15 md:p-12 flex flex-col justify-center items-center text-center space-y-5 w-auto font-inter">
                 <h1 className="text-white text-3xl font-bold mt-30 sm:text-4xl md:text-6xl sm:mt-20 md:mt-40 lg:mt-25">Your <span className="text-amber-300 tracking-tight">Broadway</span> Adventure Starts Here</h1>
                 <h2 className="text-white text-xl  sm:text-4xl md:text-4xl font-light mb-7">Explore dazzling performances, book the best seats and enjoy the shows that light up New York City.</h2>
                 <div className="flex w-auto rounded bg-white">

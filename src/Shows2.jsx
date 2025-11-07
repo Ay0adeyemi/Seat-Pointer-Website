@@ -86,7 +86,7 @@ const data =[
         ))
         
 return (
-<div className='bg-white pt-10 pb-10 dark:bg-slate-900 h-full pl-3'>
+<div className='bg-white pt-10 pb-10 dark:bg-slate-900 h-full pl-3 font-inter'>
   <h1 className='text-2xl font-bold text-black-500 mb-7 dark:text-white'>  🌟Fan Favorites</h1>
         <Carousel responsive={responsive} showDots={false} swipeable={true} autoPlay={true} autoPlaySpeed={3000} infinite={true}>
   {card}

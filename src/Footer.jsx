@@ -11,7 +11,6 @@ const Footer = () => {
     <footer className="bg-gray-900 dark:bg-black text-gray-300 py-10">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
 
-        {/* Logo / About Section */}
         <div>
           <h2 className="text-xl font-semibold text-white">Seatpointer</h2>
           <p className="mt-3 text-sm leading-relaxed">
@@ -21,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
+        
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
           <ul className="space-y-2 text-sm">
@@ -32,7 +31,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Support / Contact Info */}
+        
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Need Help?</h3>
           <p className="text-sm">
@@ -45,7 +44,7 @@ const Footer = () => {
             <span className="font-semibold">Phone:</span> +1 (555) 123-4567
           </p>
 
-          {/* Social Icons */}
+          
           <div className="flex space-x-4 mt-4">
             <a href="#" className="hover:text-white transition-colors">
               <FaFacebookF />
@@ -62,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Signup */}
+        
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Stay Updated</h3>
           <p className="text-sm mb-3">
@@ -77,7 +76,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-md hover:bg-blue-700 transition-colors"
+              className="px-4 py-2 bg-red-500 text-white text-sm font-medium rounded-md hover:bg-red-700 transition-colors"
             >
               Subscribe
             </button>
@@ -85,7 +84,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Bottom */}
+    
       <div className="mt-10 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
         © {new Date().getFullYear()} Seatpointer. All rights reserved.
       </div>
