@@ -7,10 +7,10 @@ function Cards(props) {
 <div className='h-80 w-full overflow-hidden'>
    <img src={props.image} alt="show-image" className="w-full h-full object-cover sm:h-full pb-4"/>
    </div>
-   <p className="text-xl font-bold text-red-500 ">{props.title}</p>
+   <h3 className="text-lg font-semibold text-red-500 ">{props.title}</h3>
    <div className="flex justify-between pb-5"> 
-   <p className="text-md text-amber-500 tracking-tighter font-semibold">{props.price}</p>
-   <p className="text-md flex gap-x-1 font-bold text-amber-500"><Star color='red' size={23}/>{props.rating}</p>
+   <p className="text-sm text-gray-500 tracking-tighter font-semibold">{props.price}</p>
+   <p className="text-sm flex gap-x-1 font-semibold text-gray-500"><Star color='red' size={18}/>{props.rating}</p>
 </div>
 </div>
 </div>

@@ -71,7 +71,7 @@ const NewsBlogSection = () => {
                 <p className="text-gray-700 dark:text-gray-300 flex-1 mb-4">
                   {post.excerpt}
                 </p>
-                <button className="self-start px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-md text-sm transition-colors">
+                <button className="self-start px-4 py-2 bg-red-500 hover:bg-red-700 text-white rounded-md text-sm transition-colors">
                   Read More
                 </button>
               </div>
