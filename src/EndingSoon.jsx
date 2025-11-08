@@ -7,7 +7,7 @@ const endingSoonShows = [
     theater: "Ambassador Theatre",
     date: "Ends Nov 10, 2025",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/e/e2/BackToTheFutureMusicalPoster.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUR_pvio1bxzRJJ2DOMf9iPu_vdJLpLE-Tjw&s",
     price: "$85",
   },
   {
@@ -16,7 +16,7 @@ const endingSoonShows = [
     theater: "Al Hirschfeld Theatre",
     date: "Ends Nov 18, 2025",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/4/42/Moulin_Rouge_the_Musical_poster_blue.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkJvzYGkvRCE6SIuoB0JwA6bO-zyfr5U5rGA&s",
     price: "$110",
   },
   {
@@ -39,44 +39,45 @@ const EndingSoon = () => {
         </h2>
 
         
-        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 justify-center items-stretch">
-          {endingSoonShows.map((show) => (
-            <div
-              key={show.id}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col md:flex-row items-center overflow-hidden w-full md:w-1/3"
-            >
-              
-              <div className="w-full md:w-1/2 h-40 md:h-auto overflow-hidden">
-                <img
-                  src={show.image}
-                  alt={show.title}
-                  className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110"
-                />
-              </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+  {endingSoonShows.map((show) => (
+    <div
+      key={show.id}
+      className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center overflow-hidden w-full max-w-sm"
+    >
+      {/* Image */}
+      <div className="w-full h-56 overflow-hidden">
+        <img
+          src={show.image}
+          alt={show.title}
+          className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110"
+        />
+      </div>
 
-              
-              <div className="p-4 flex flex-col justify-center text-center md:text-left w-full md:w-1/2">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-1">
-                  {show.title}
-                </h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
-                  📍 {show.theater}
-                </p>
-                <p className="text-sm text-red-500 dark:text-red-500 font-medium mb-2">
-                  ⏰ {show.date}
-                </p>
-                <div className="flex justify-center md:justify-start items-center gap-3 mt-2">
-                  <span className="text-base font-semibold text-gray-800 dark:text-gray-200">
-                    {show.price}
-                  </span>
-                  <button className="bg-red-500 hover:bg-red-700 text-white text-xs px-3 py-1.5 rounded-md transition-colors">
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
+      {/* Details */}
+      <div className="p-4 flex flex-col justify-center text-center w-full">
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-1">
+          {show.title}
+        </h3>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
+          📍 {show.theater}
+        </p>
+        <p className="text-sm text-red-500 dark:text-red-500 font-medium mb-2">
+          ⏰ {show.date}
+        </p>
+        <div className="flex justify-center items-center gap-3 mt-2">
+          <span className="text-base font-semibold text-gray-800 dark:text-gray-200">
+            {show.price}
+          </span>
+          <button className="bg-red-500 hover:bg-red-700 text-white text-xs px-3 py-1.5 rounded-md transition-colors">
+            Book Now
+          </button>
         </div>
+      </div>
+    </div>
+  ))}
+</div>
+
       </div>
     </section>
   );
